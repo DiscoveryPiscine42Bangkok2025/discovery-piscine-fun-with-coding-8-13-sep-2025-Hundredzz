@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background: linear-gradient(lightblue, aquamarine);
+    
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5)
+}
+
+.image{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    object-fit:contain;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h1{
+    margin: 17px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+
+}
+
+.des{
+    color: gray;
+}
