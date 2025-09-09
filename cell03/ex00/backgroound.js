@@ -10,10 +10,6 @@ const randomColor = () => {
     const g = Math.floor(Math.random() * 255);
     const b = Math.floor(Math.random() * 255);
     newColor =  r * 0.299 + g * 0.587 + b * 0.114
-    if(newColor > 186) {
-        newColor = 'black';
-    } else {
-        newColor = 'white';
-    }
+    s
     return `rgb(${r}, ${g}, ${b})`;
 }
