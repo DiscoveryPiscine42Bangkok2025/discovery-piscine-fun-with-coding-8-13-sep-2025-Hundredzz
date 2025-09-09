@@ -9,8 +9,7 @@ elif [ $# == 2 ]
 then 
     echo "$1"
     echo "$2"
-elif [ $# == 3 ]
-then 
+else
     echo "$1"
     echo "$2"
     echo "$3"
