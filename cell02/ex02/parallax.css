@@ -1,0 +1,37 @@
+body, html {
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#parallax2{
+  background-image: url("https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/514473246_10008827359186386_8437279284793611506_n.png?stp=dst-jpg_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=d7sUfJs_nb8Q7kNvwHZF-sA&_nc_oc=Adls3h7KYY2SSJLbvi76bAB-lryMwnyASckezVCCQIQf3hviL2RCOu10OzIOoZVmezA&_nc_zt=23&_nc_ht=scontent-bkk1-1.xx&_nc_gid=oWmn1rXpLJtYyenNmN4TBw&oh=00_AfZsAHK6OntRe5fo8wRnpAIrHnRxb-P_v7IvpsRT9flYKA&oe=68C5DC73");
+}
+
+#parallax1{
+    background-image: url("https://upload-os-bbs.hoyolab.com/upload/2025/05/07/65472989/4bd90cd101925d8625cf3ef52f66b491_4920428877593203935.png");
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:xx-large;
+}
+
+.slidebar{
+    height: 35vh;
+}
+
+.parallax {
+  height: 100%; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.35);
+  background-blend-mode: darken;
+}
