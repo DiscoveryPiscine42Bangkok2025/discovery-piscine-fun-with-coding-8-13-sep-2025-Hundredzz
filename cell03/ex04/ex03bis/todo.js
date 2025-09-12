@@ -12,7 +12,7 @@ function createTodo(text) {
 }
 
 function render() {
-    const $list = $('#list');
+    const $list = $('#ft_list');
     $list.empty();
     for (let i = 0; i < TodoList.length; i++) {
         $list.append(createTodo(TodoList[i]));
