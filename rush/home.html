@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Select</title>
+  <link rel="stylesheet" href="home.css">
+  
+</head>
+<body>
+  
+
+
+  <!-- Main Character Select -->
+  <main class="character-select">
+    <h1 class="title">CHARACTER SELECT</h1>
+    <p class="subtitle">Choose the character</p>
+
+    <div class="character-container">
+      <!-- Left Arrow -->
+      <button class="arrow left" title="Previous" id="desk-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60">
+          <polygon points="15,5 8,12 15,19" fill="#FFD700"/>
+        </svg>
+      </button>
+
+      <!-- Character Image -->
+      <div class="character-display">
+        <img id="character-image" src="images/tigress.png" alt="Character">
+      </div>
+
+      <!-- Right Arrow -->
+      <div class="arrow-container">
+        <button class="arrow left" title="Previous" id="mobil-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60">
+          <polygon points="15,5 8,12 15,19" fill="#FFD700"/>
+        </svg>
+      </button>
+        <button class="arrow right" title="Next">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60">
+            <polygon points="9,5 16,12 9,19" fill="#FFD700"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Character Name -->
+    <div class="character-name" id="character-name">Bamboo</div>
+    <div class="character-intra" id="character-intra">ythaworn</div>
+  </main>
+
+  <script src="home.js"></script>
+</body>
+</html>
